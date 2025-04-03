@@ -1,0 +1,48 @@
+src/
+├── App.jsx
+├── index.js
+├── stores/
+│   └── userStore.js
+├── api/
+│   └── userapi.js
+├── components/
+│   ├── Header/
+│   │   ├── Header.jsx
+│   │   ├── Header.css
+│   │   ├── Logo.jsx
+│   │   ├── Logo.css
+│   │   ├── DesktopNav.jsx
+│   │   ├── DesktopNav.css
+│   │   ├── MobileMenu.jsx
+│   │   ├── MobileMenu.css
+│   │   ├── AuthButtons.jsx
+│   │   ├── AuthButtons.css
+│   │   └── Modal/
+│   │       ├── AuthModal.jsx
+│   │       └── AuthModal.css
+│   ├── Auth/
+│   │   └── PrivateRoute.jsx
+│   ├── Main/
+│   │   ├── MainContent.jsx
+│   │   ├── MainContent.css
+│   │   ├── ServiceSection.jsx
+│   │   ├── ServiceSection.css
+│   │   ├── MasterSection.jsx
+│   │   ├── MasterSection.css
+│   │   ├── UsersList.jsx
+│   │   └── UsersList.css
+│   ├── Admin/
+│   │   ├── AdminUsers.jsx
+│   │   └── AdminUsers.css
+│   ├── Profile/
+│   │   ├── Profile.jsx
+│   │   └── Profile.css
+│   ├── Reviews/
+│   │   ├── Reviews.jsx
+│   │   └── Reviews.css
+│   └── AboutPage/
+│       ├── AboutPage.jsx
+│       └── AboutPage.css
+└── assets/
+    ├── Logo.png
+    └── cat.png

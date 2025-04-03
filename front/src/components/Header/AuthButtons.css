@@ -1,0 +1,59 @@
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.auth-button,
+.admin-button,
+.logout-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.auth-button {
+  background: linear-gradient(45deg, #00f2fe, #9b22ff);
+  color: white;
+  border: none;
+}
+
+.admin-button {
+  background: #722ed1;
+  color: white;
+  border: none;
+}
+
+.logout-button {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.profile-link:hover {
+  background: #f0f0f0;
+}
+
+.icon {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .auth-buttons {
+    display: none;
+  }
+}
